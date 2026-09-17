@@ -1,0 +1,31 @@
+# Prerequisites / Compilation outputs
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.a
+*.so
+*.dylib
+
+# CMake build directories (out-of-source builds)
+build/
+build-*/
+cmake-build-*/
+out/
+
+# CMake generated files (in case of in-source builds)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+
+# IDE & Editor caches
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
