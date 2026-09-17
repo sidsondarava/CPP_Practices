@@ -48,6 +48,11 @@ public:
 
     const T& operator * () const
     {
+        if(data == nullptr)
+        {
+            throw std::runtime_error("Dereferencing null pointer");
+        }
+        
         return *data;
     }
 

@@ -4,4 +4,4 @@ project(smart_pointers LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(UniquePtr main.cpp)
+add_executable(SharedPtr main.cpp)
